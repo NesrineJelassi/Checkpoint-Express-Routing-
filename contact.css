@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1580820267682-426da823b514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+form{
+   width: 20rem;
+   border: 1px outset white;
+   border-radius: 25px;
+   position: fixed;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: orange;
+   padding: 2%;
+   text-align: center;
+}
+button{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: outset black;
+    border-radius: 25px;
+    height: 50px;
+    background-color: orange;
+    width: 200px;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+}
+input{
+    width: 18rem;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+textarea{
+    border: 1px solid white;
+    width: 18rem;
+    border-radius: 25px;
+}

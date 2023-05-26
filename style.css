@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>img{
+    width: 75px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(207, 19%, 9%);
+    color: white;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    margin-right: 2%;
+}
+nav:hover{
+    color: orange;
+    cursor: pointer;
+}
+#intro{
+    background-image: url("https://images.unsplash.com/photo-1580820267682-426da823b514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.intro-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 2%;
+}
+button{
+    border: outset black;
+    border-radius: 25px;
+    height: 50px;
+    background-color: orange;
+    width: 200px;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+}
+p{
+    font-size: large;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 2;
+    margin: 2% 20%;
+}
+.imgs{
+    width: 400px;
+    height: 600px;
+    filter: grayscale(1);
+    /* opacity: 50%; */
+    /* filter: blur(1.5px); */
+}
+.about-img{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.imgs:hover{
+    filter: grayscale(0);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(207, 19%, 9%);
+    color: white;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 576px) {
+    header{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    #intro{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    p{
+        font-size: large;
+        font-family: sans-serif;
+        font-style: italic;
+        text-align:start;
+        margin: 5%;
+    }
+    .intro-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    }
+    button{
+        border: 1px solid black;
+        border-radius: 0px;
+        height: 50px;
+        background-color: orange;
+        width: 150px;
+    }
+    button:hover{
+        background-color: white;
+        color: orange;
+        border-radius: 25px;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+}
